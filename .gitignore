@@ -1,0 +1,10 @@
+# Sistema
+.DS_Store
+*.pem
+
+# Editores
+.vscode/
+.idea/
+
+# Vercel
+.vercel

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es" data-scroll-behavior="smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CIF15 — Club CIF</title>
+    <meta name="description" content="CIF15 — Encuentros deportivos mensuales del Club CIF." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header id="cif-header"></header>
+    <main id="cif-main"></main>
+    <footer id="cif-footer"></footer>
+
+    <!-- Estamos en /eventos, por eso BASE = "../" y definimos el slug del evento -->
+    <script>
+      window.CIF_BASE = "../";
+      window.CIF_EVENT_SLUG = "cif15";
+    </script>
+    <script src="../js/data.js"></script>
+    <script src="../js/components.js"></script>
+    <script src="../js/event.js"></script>
+  </body>
+</html>

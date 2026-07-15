@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es" data-scroll-behavior="smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Club CIF — Deporte, aprendizaje y encuentro en Cipolletti</title>
+    <meta
+      name="description"
+      content="Club deportivo de Cipolletti, Río Negro. Actividades para infancias, jóvenes y adultos. Eventos, indumentaria y comunidad."
+    />
+
+    <!-- Tipografías: Montserrat (textos) + Anton (títulos, sustituta de Neutronic Condensed Black) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header (se renderiza con JS desde components.js) -->
+    <header id="cif-header"></header>
+
+    <!-- Contenido principal (se renderiza con JS desde main.js) -->
+    <main id="cif-main"></main>
+
+    <!-- Footer (se renderiza con JS desde components.js) -->
+    <footer id="cif-footer"></footer>
+
+    <!-- Scripts. Estamos en la raíz, por eso BASE = "" -->
+    <script>
+      window.CIF_BASE = "";
+    </script>
+    <script src="js/data.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
